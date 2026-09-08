@@ -63,7 +63,7 @@ use the relative path `../data/...`.
    `../data/raw/train_occupancy.csv`, audits and cleans it, recreates the
    processed CSV files, and generates the three EDA figures.
 
-For example, from the project root:
+from the project root:
 
 ```bash
 cd notebooks
@@ -88,25 +88,5 @@ standardises three inconsistent occupancy labels; and parses valid timestamp
 formats. Placeholder or unusable timestamps are retained as missing rather
 than guessed.
 
-## Assignment 2 handover
 
-The proposed outcome is the binary `Crowded` label. Candidate predictors are
-departure-time band/hour, stop station, service line, direction, origin,
-destination, train set type, and station-sequence order. Do not use
-`Occupancy Range` as a predictor because it is closely related to the outcome
-and risks target leakage. The assignment-2 analysis should account for the
-rare crowding outcome and the dataset's short observation period.
 
-## Team process and contribution statement
-
-Complete the following before submission; do not submit placeholders.
-
-| Group member (SID and UniKey only) | Main responsibility and contribution | Agreed contribution (%) |
-| --- | --- | --- |
-| `[Student 1 SID and UniKey]` | `[Describe contribution and quality review]` | `[50]` |
-| `[Student 2 SID and UniKey]` | `[Describe contribution and quality review]` | `[50]` |
-
-Week 6 review evidence: record the meeting/checkpoint date, confirm that both
-members reviewed the final report and notebooks, and note any rebalancing of
-work. Include the completed table and concise review evidence in the report
-cover page or an appendix, as required by the assignment brief.
