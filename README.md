@@ -82,11 +82,6 @@ Running `02_data_readiness.ipynb` recreates:
   (49,880 rows), for analyses requiring both parsed timestamps.
 - The three PNG figures in `figures/`.
 
-Cleaning removes 250 exact duplicates and 73 records with missing
-`Occupancy Status`; trims whitespace in selected categorical fields;
-standardises three inconsistent occupancy labels; and parses valid timestamp
-formats. Placeholder or unusable timestamps are retained as missing rather
-than guessed.
-
+Cleaning removes 500 observations belonging to 250 exact duplicate pairs/groups and 73 records with missing `Occupancy Status`; trims whitespace in selected categorical fields; standardises inconsistent occupancy labels; and parses valid timestamp formats. Placeholder or unusable timestamps are retained as missing rather than guessed.
 
 
