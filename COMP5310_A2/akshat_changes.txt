@@ -70,3 +70,15 @@ threshold decisions and error analysis.
 - All random modelling settings use random_state=42.
 
 
+
+
+Report completion and verification — 22 October 2026
+1. Reviewed teammate scope section and assignment instructions. Left cover identifiers and agreed contributions blank.
+2. Removed hardcoded error-chart counts; each model now has a separate cloned preprocessor.
+3. Added training-only class/line-direction/station EDA, five-repeat permutation importance, actual confusion-matrix figures and line error denominators.
+4. Added first-fold grouped-trip sensitivity check (not full CV). Recall falls to 20% LR and 3.08% RF: report recommends no deployment yet.
+5. Executed both notebooks successfully and exported tables and figures. Replaced stale Random Forest metrics in README.
+6. Prepared an expanded Word report and PDF preview with a one-page model card, limitations and AI declaration.
+7. Corrected Matplotlib version pin and standalone ZIP raw-data lookup.
+
+Inline figure display: removed five PNG export calls, enabled the inline Matplotlib backend, retained all plt.show() calls and embedded image outputs. Existing report assets were not deleted.

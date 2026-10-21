@@ -1,0 +1,9 @@
+Service.Line,Segment.Direction,records,crowded,rate
+North  via Macquarie Park,Down,1192,84,0.07046979865771812
+North Shore,Down,1941,133,0.06852138073158166
+West,Down,2536,160,0.06309148264984227
+City Circle,Down,1043,65,0.062320230105465
+North  via Macquarie Park,Up,1252,74,0.05910543130990415
+North Shore,Up,1859,107,0.05755782678859602
+North  via  Strathfield,Down,712,35,0.04915730337078652
+Airport,Up,1871,86,0.04596472474612507

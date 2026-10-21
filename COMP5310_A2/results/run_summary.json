@@ -1,0 +1,28 @@
+{
+  "rows": 49927,
+  "crowded": 1994,
+  "train_rows": 39941,
+  "test_rows": 9986,
+  "test_crowded": 399,
+  "shared_trips": 2919,
+  "features": [
+    "day",
+    "Actual.Stop.Station",
+    "Segment.Direction",
+    "Trip.Name",
+    "Service.Line",
+    "Orig..Station",
+    "Dest..Station",
+    "Leading.Set.Type",
+    "Node.Seq.Order"
+  ],
+  "group_test_rows": 9672,
+  "group_test_crowded": 390,
+  "versions": {
+    "python": "3.11.9",
+    "pandas": "2.3.3",
+    "numpy": "2.4.6",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.11.2"
+  }
+}
