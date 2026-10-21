@@ -33,6 +33,12 @@ COMP5310_A2/
 - Imputation, encoding and scaling are fitted within a scikit-learn pipeline on training data only.
 - Expected runtime is approximately 1-3 minutes on a standard laptop; Random Forest is the slowest step.
 
+## Why these models may behave differently
+
+Logistic Regression makes one overall, additive estimate of crowding from the available predictors. This makes its probability and threshold easier to explain to an operations team. Its limitation is that it may miss more complicated interactions, such as a pattern involving a particular combination of line, direction and station. Balanced class weights deliberately make it more willing to flag the uncommon crowded class, which can increase recall but also increase false alarms.
+
+Random Forest combines many decision trees, so it can capture non-linear patterns and interactions without us specifying them in advance. However, it is less transparent: it is harder to explain an individual prediction, and repeated trip, service or station patterns can make a random split look better than performance on genuinely new services. It therefore needs the same leakage controls and a grouped or later-time validation before operational use.
+
 ## Implementation record: changes made in Assignment 2
 
 This section records the changes made when the initial Assignment 2 notebooks were reviewed. It is included so that every change can be traced to a clear reason.
