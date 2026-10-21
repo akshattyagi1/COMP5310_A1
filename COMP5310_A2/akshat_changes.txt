@@ -69,11 +69,4 @@ threshold decisions and error analysis.
 - Added requirements.txt with pandas, numpy, scikit-learn and Jupyter.
 - All random modelling settings use random_state=42.
 
-Important notes
----------------
-- The tutorial PDF created locally is intentionally NOT included in this commit.
-- Before final submission, run both notebooks top-to-bottom in Jupyter and
-  visually check the generated confusion-matrix figure.
-- The report should state that Logistic Regression has higher crowded-class
-  recall, while Random Forest has fewer false alarms; the final choice depends
-  on stakeholder error costs.
+
